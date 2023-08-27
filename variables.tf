@@ -449,3 +449,6 @@ variable "resource_requirements" {
   description = "The type and amount of a resource to assign to a container. The only supported resource is a GPU."
   default     = null
 }
+variable "repository_credentials" {
+  default = null
+}
